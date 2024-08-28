@@ -103,7 +103,7 @@ The plan should be shown as 2 to add, 0 to change, 0 to destroy. Note that the l
 
 ### Terraform Apply
 
-Run the terraform apply as shown below.
+Run the terraform apply as shown below and confirm the apply by typing yes.
 
 ```
 terraform apply "tfplan"
@@ -115,7 +115,7 @@ Confirm that terraform outputs the following:
 Apply complete! Resources: 2 added, 0 changed, 0 destroyed.
 ```
 
-## Step 6 - Destroy
+## Step 5 - Destroy
 
 We need to clean up our resources. Run terraform destroy to clean up:
 
