@@ -1,5 +1,5 @@
 # Simple Module
-In this exercise we are going to move the subnet resources into their own module
+In this exercise we are going to move the subnet resources into their own module to create a very simple reusable module.
 
 ## Step 1 - Create the module
 
@@ -18,10 +18,6 @@ terraform {
     }
     azurerm = {
       source  = "hashicorp/azurerm"
-      version = ">= 3.0"
-    }
-    tls = {
-      source  = "hashicorp/tls"
       version = ">= 3.0"
     }
   }
